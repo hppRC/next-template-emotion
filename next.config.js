@@ -1,13 +1,15 @@
-/* eslint-disable
-    @typescript-eslint/no-var-requires,
-    @typescript-eslint/explicit-function-return-type
-*/
-
 const { resolve } = require(`path`);
+const sitemap = require(`nextjs-sitemap-generator`);
+
+sitemap({
+  baseUrl: `next-tempalte.hpprc.com`,
+  pagesDirectory: `${__dirname}/src/pages`,
+  targetDirectory: `static/`,
+});
 
 module.exports = {
   target: `serverless`,
-  webpack: config => {
+  webpack: (config) => {
     config.resolve.alias[`~`] = resolve(__dirname, `src`);
     return config;
   },

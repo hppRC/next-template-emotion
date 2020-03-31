@@ -8,15 +8,17 @@
     "start": "next start",
     "export": "next build && next export",
     "clean": "rm -rf out .next public",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.json --ignore-path .gitignore .",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
     "fix": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore . --fix"
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "next": "9.3.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "next": "^9.3.3",
+    "nextjs-sitemap-generator": "^0.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sanitize.css": "^11.0.0"
   },
   "devDependencies": {
     "@types/node": "^13.9.8",
@@ -31,7 +33,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
-    "eslint-plugin-simple-import-sort": "^5.0.2",
     "prettier": "^2.0.2",
     "stylelint": "^13.2.1",
     "stylelint-config-recess-order": "^2.0.4",
@@ -41,6 +42,6 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
     "stylelint-no-unsupported-browser-features": "^4.0.0",
     "stylelint-order": "^4.0.0",
-    "typescript": "^3.9.0-beta"
+    "typescript": "^3.8.3"
   }
 }
