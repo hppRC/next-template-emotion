@@ -5,12 +5,10 @@
     "target": "es5",
     "module": "esnext",
     "moduleResolution": "node",
-
     "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
@@ -19,7 +17,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]

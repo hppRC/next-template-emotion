@@ -5,14 +5,14 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint'
+    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'prettier', 'react-hooks'],
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
-    ecmaFeatures: { jsx: true }
+    ecmaFeatures: { jsx: true },
   },
   env: { browser: true, node: true, es6: true },
   rules: {
@@ -58,13 +58,13 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     indent: ['error', 2, { SwitchCase: 1 }],
-    'prettier/prettier': ['error', { trailingComma: 'es5', printWidth: 120 }],
+    'prettier/prettier': ['error', { printWidth: 120, arrowParens: 'avoid' }],
     'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/anchor-is-valid': ['warn', { aspects: ['invalidHref'] }]
+    'jsx-a11y/anchor-is-valid': ['warn', { aspects: ['invalidHref'] }],
   },
   settings: {
     react: {
-      version: 'detect'
-    }
-  }
+      version: 'detect',
+    },
+  },
 };
