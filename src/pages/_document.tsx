@@ -20,7 +20,7 @@ class CustomDocument extends Document implements CustomDocumentInterface {
           <meta name='charset' content='UTF-8' />
           <meta name='description' content={this.description} />
           <meta name='theme-color' content='#09090f' />
-          <meta name='viewport' content='width=device-width, initial-scale=1.0, viewport-fit=cover' />
+          <meta name='viewport' content='width=device-width, initial-scale=1.0, viewport-fit=cover' key='viewport' />
 
           <meta property='og:type' content='website' />
           <meta property='og:title' content={this.title} />

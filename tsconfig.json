@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "esnext",
     "module": "esnext",
     "jsx": "preserve",
     "lib": ["dom", "es2015", "es2020"],
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+
     "strict": true,
     "esModuleInterop": true,
     "isolatedModules": true,
@@ -13,21 +14,18 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["./src/*"]
-    },
-    "typeRoots": ["types", "node_modules/@types"],
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
-    "allowJs": false
-  },
-  "watchOptions": {
-    "watchFile": "dynamicPriorityPolling",
-    "watchDirectory": "dynamicPriorityPolling",
-    "fallbackPolling": "dynamicPriority"
+    "allowJs": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "typeRoots": ["src/types", "node_modules/@types"]
   },
   "exclude": ["node_modules", "out", ".next"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

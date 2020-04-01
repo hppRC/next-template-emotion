@@ -4,7 +4,7 @@ const sitemap = require(`nextjs-sitemap-generator`);
 sitemap({
   baseUrl: `next-tempalte.hpprc.com`,
   pagesDirectory: `${__dirname}/src/pages`,
-  targetDirectory: `static/`,
+  targetDirectory: `public/`,
 });
 
 module.exports = {
