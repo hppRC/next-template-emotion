@@ -21,7 +21,7 @@
     "sanitize.css": "11.0.0"
   },
   "devDependencies": {
-    "@types/node": "13.11.0",
+    "@types/node": "13.11.1",
     "@types/react": "16.9.29",
     "@typescript-eslint/eslint-plugin": "2.27.0",
     "@typescript-eslint/parser": "2.27.0",
