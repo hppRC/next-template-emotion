@@ -2,7 +2,7 @@
 const sitemap = require(`nextjs-sitemap-generator`);
 
 sitemap({
-  baseUrl: `next-tempalte.hpprc.com`,
+  baseUrl: process.env.NEXT_PUBLIC_GITHUB_PAGES ? `hpprc.github.io` : `next-tempalte.hpprc.com`,
   pagesDirectory: `${__dirname}/src/pages`,
   targetDirectory: `public/`,
 });
