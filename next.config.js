@@ -1,4 +1,4 @@
-const { resolve } = require(`path`);
+/* eslint-disable no-param-reassign */
 const sitemap = require(`nextjs-sitemap-generator`);
 
 sitemap({
@@ -9,8 +9,5 @@ sitemap({
 
 module.exports = {
   target: `serverless`,
-  webpack: (config) => {
-    config.resolve.alias[`~`] = resolve(__dirname, `src`);
-    return config;
-  },
+  assetPrefix: process.env.NEXT_PUBLIC_GITHUB_PAGES ? `/next-template` : ``,
 };
