@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6509aced-6f20-4ca9-97b9-3914d85f2fcc/deploy-status)](https://app.netlify.com/sites/hpprc-next-template/deploys)
 
 ![](https://github.com/hppRC/next-template/workflows/Lint/badge.svg)
