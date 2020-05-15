@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
+
+![](https://github.com/hppRC/next-template/workflows/Lint/badge.svg)
+
+![](https://github.com/hppRC/next-template/workflows/Build%20project%20and%20Run%20Lighthouse%20CI/badge.svg)
+
+![](https://github.com/hppRC/next-template/workflows/GitHub%20Pages/badge.svg)
+
+
 ## Getting Started
 
 First, run the development server:
