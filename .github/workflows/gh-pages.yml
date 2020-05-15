@@ -27,13 +27,10 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: build
-        run: yarn build
-        env:
-          NEXT_PUBLIC_GITHUB_PAGES: true
-
       - name: Run static export for GitHub Pages
         run: yarn export
+        env:
+          NEXT_PUBLIC_GITHUB_PAGES: true
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
