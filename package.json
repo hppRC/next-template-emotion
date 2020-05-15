@@ -14,7 +14,7 @@
   "dependencies": {
     "@emotion/core": "10.0.28",
     "@emotion/styled": "10.0.27",
-    "next": "9.3.4",
+    "next": "9.4.0",
     "nextjs-sitemap-generator": "0.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
