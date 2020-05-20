@@ -113,6 +113,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
-
+recoil.d.ts
 
 out
+
+.vercel
