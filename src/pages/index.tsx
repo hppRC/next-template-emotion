@@ -13,7 +13,6 @@ const Component: React.FCX<Props> = ({ className }) => {
     <div className={className}>
       {mode}
       <button
-        id='toggle-button'
         type='button'
         aria-label='button'
         onClick={() => setColorMode((mode) => (mode === `Light` ? `Dark` : `Light`))}

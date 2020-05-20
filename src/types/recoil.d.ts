@@ -1,12 +1,4 @@
-/// <reference types="react-scripts" />
-
-// Type definitions for recoil 0.0
-// Project: https://github.com/facebookexperimental/recoil#readme
-// Definitions by: Christian Santos <https://github.com/csantos42>
-// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-// Minimum TypeScript Version: 3.7
-
-/// <reference types="react" />
+/* eslint-disable */
 
 declare module 'recoil' {
   // Nominal Classes
