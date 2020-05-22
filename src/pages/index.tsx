@@ -1,13 +1,13 @@
 import { useRecoilState } from 'recoil';
-import { colorModeState } from 'src/store';
+import { ColorMode, colorModeState } from 'src/store';
 
 import styled from '@emotion/styled';
 
-type ContainerProps = {};
-type Props = {} & ContainerProps;
+type ContainerProps = Record<string, unknown>;
+type Props = Record<string, unknown> & ContainerProps;
 
 const Component: React.FCX<Props> = ({ className }) => {
-  const [mode, setColorMode] = useRecoilState(colorModeState);
+  const [mode, setColorMode] = useRecoilState<ColorMode>(colorModeState);
 
   return (
     <div className={className}>

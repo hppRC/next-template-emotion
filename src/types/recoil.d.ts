@@ -1,5 +1,5 @@
 declare module 'recoil' {
-  export type RecoilState<T> = {};
+  export type RecoilState<T> = unknown;
 
   export const RecoilRoot: React.ComponentType<{
     initializeState?: (options: {
