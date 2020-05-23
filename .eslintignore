@@ -35,4 +35,11 @@ public
 LICENSE
 *.txt
 *.toml
-
+.next
+_next
+.out
+out
+.github
+public
+.git
+.vercel
