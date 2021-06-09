@@ -18,7 +18,7 @@
     "nextjs-sitemap-generator": "1.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "recoil": "0.0.7",
+    "recoil": "0.3.1",
     "sanitize.css": "11.0.0"
   },
   "devDependencies": {
